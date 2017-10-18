@@ -1,2 +1,2 @@
 # 2017-spray-and-pray
-Source code for 2017 FRC robot playing Steamworks
+2017 FRC Season Robot Code for Spray & Pray playing Steamworks
