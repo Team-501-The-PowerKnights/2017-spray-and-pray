@@ -1,0 +1,200 @@
+<xml version="1.0">
+<dashboard>
+	<widget field="gearFlapsClosed" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="391" y="388"/>
+		<width>109</width>
+		<height>27</height>
+	</widget>
+	<widget field="Use Gear Switch" type="String Chooser" class="edu.wpi.first.smartdashboard.gui.elements.Chooser">
+		<location x="699" y="152"/>
+	</widget>
+	<widget field="gearOnPeg" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="544" y="260"/>
+		<width>82</width>
+		<height>29</height>
+	</widget>
+	<widget field="angleRotated" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="218" y="279"/>
+	</widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.Label">
+		<location x="692" y="147"/>
+		<property name="Text" value="Use Gear Switch?"/>
+	</static-widget>
+	<widget field="pdpCurrentWarn" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="67" y="543"/>
+		<width>103</width>
+		<height>19</height>
+	</widget>
+	<widget field="pdpTotalCurrent" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="8" y="496"/>
+	</widget>
+	<widget field="pdpDriveCurrent" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="7" y="519"/>
+	</widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.Label">
+		<location x="88" y="43"/>
+		<property name="Text" value="Use Vision?"/>
+	</static-widget>
+	<widget field="Use Vision" type="String Chooser" class="edu.wpi.first.smartdashboard.gui.elements.Chooser">
+		<location x="82" y="49"/>
+	</widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.MjpgStreamViewerImpl">
+		<location x="943" y="15"/>
+		<width>555</width>
+		<height>535</height>
+		<property name="MJPG Server URL" value="http://raspberrypi.local:1181/?action=stream"/>
+	</static-widget>
+	<widget field="saveImage" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="405" y="505"/>
+		<width>79</width>
+		<height>26</height>
+	</widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.Label">
+		<location x="323" y="462"/>
+		<property name="Text" value="Save Images"/>
+	</static-widget>
+	<widget field="Save Images" type="String Chooser" class="edu.wpi.first.smartdashboard.gui.elements.Chooser">
+		<location x="325" y="480"/>
+	</widget>
+	<widget field="usingVision" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="6" y="173"/>
+		<width>85</width>
+		<height>27</height>
+	</widget>
+	<widget field="cameraTable" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="68" y="7"/>
+		<width>85</width>
+		<height>26</height>
+	</widget>
+	<widget field="autoGearPlace" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="23" y="154"/>
+		<width>86</width>
+		<height>16</height>
+	</widget>
+	<widget field="autoShoot" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="122" y="155"/>
+		<width>66</width>
+		<height>17</height>
+	</widget>
+	<widget field="autoSelected" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="9" y="129"/>
+		<width>213</width>
+	</widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.Label">
+		<location x="691" y="80"/>
+		<property name="Text" value="Auto Gear Hang?"/>
+	</static-widget>
+	<widget field="Auto Gear" type="String Chooser" class="edu.wpi.first.smartdashboard.gui.elements.Chooser">
+		<location x="698" y="85"/>
+	</widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.Label">
+		<location x="698" y="14"/>
+		<width>71</width>
+		<property name="Text" value="Auto Shoot?"/>
+	</static-widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.Label">
+		<location x="563" y="14"/>
+		<width>97</width>
+		<property name="Text" value="AutoMode Select"/>
+	</static-widget>
+	<widget field="Auto Shooter" type="String Chooser" class="edu.wpi.first.smartdashboard.gui.elements.Chooser">
+		<location x="701" y="19"/>
+	</widget>
+	<widget field="Auto Select" type="String Chooser" class="edu.wpi.first.smartdashboard.gui.elements.Chooser">
+		<location x="550" y="20"/>
+	</widget>
+	<widget field="hmiCrawl" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="178" y="42"/>
+		<width>59</width>
+		<height>19</height>
+	</widget>
+	<widget field="hmiTurbo" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="178" y="14"/>
+		<width>61</width>
+		<height>20</height>
+	</widget>
+	<widget field="targetAngle" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="226" y="254"/>
+	</widget>
+	<widget field="targetDistance" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="21" y="253"/>
+	</widget>
+	<widget field="distanceToWall:" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="126" y="320"/>
+	</widget>
+	<widget field="distanceDriven:" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="17" y="279"/>
+	</widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.RobotPreferences">
+		<location x="524" y="341"/>
+		<width>348</width>
+		<height>248</height>
+	</static-widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.ConnectionIndicator">
+		<location x="7" y="9"/>
+		<width>46</width>
+		<height>49</height>
+	</static-widget>
+	<widget field="gearFlag" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="398" y="456"/>
+		<width>77</width>
+		<height>40</height>
+	</widget>
+	<widget field="rightDriveCount:" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="367" y="98"/>
+	</widget>
+	<widget field="leftDriveCount:" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="199" y="98"/>
+	</widget>
+	<widget field="gear" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="390" y="427"/>
+	</widget>
+	<widget field="directionFlag" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="216" y="418"/>
+		<width>97</width>
+		<height>41</height>
+	</widget>
+	<widget field="direction" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="202" y="389"/>
+		<width>139</width>
+	</widget>
+	<widget field="turn:" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="419" y="42"/>
+	</widget>
+	<widget field="speed:" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="273" y="41"/>
+	</widget>
+	<widget field="hmiTurn:" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="402" y="15"/>
+	</widget>
+	<widget field="hmiSpeed:" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="257" y="14"/>
+	</widget>
+	<widget field="codeVersion" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="3" y="570"/>
+		<width>245</width>
+	</widget>
+	<widget field="IMU_TotalYaw" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="296" y="166"/>
+		<width>201</width>
+	</widget>
+	<widget field="IMU_Roll" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="125" y="193"/>
+		<width>178</width>
+	</widget>
+	<widget field="IMU_Pitch" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="316" y="193"/>
+		<width>181</width>
+	</widget>
+	<widget field="IMU_Yaw" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="509" y="193"/>
+		<width>178</width>
+	</widget>
+</dashboard>
+<live-window>
+</live-window>
+	<hidden field="updatingPixy"/>
+	<hidden field="valuePixyY"/>
+	<hidden field="Use Gear Knock"/>
+	<hidden field="valuePixyX"/>
+</xml>
