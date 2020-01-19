@@ -1,0 +1,6 @@
+# MacOS Crap:
+.DS_Store
+
+# Java stuff
+*.class
+*.jar
